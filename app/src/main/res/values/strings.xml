@@ -5,4 +5,6 @@
     <string name="title_most_shared">Most Shared</string>
     <string name="title_most_emailed">Most Emailed</string>
     <string name="title_most_viewed">Most Viewed</string>
+    <string name="news_abstract">Abstract</string>
+    <string name="news_title">Title</string>
 </resources>
