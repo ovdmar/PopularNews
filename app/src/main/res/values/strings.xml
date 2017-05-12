@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Popular News</string>
-    <string name="title_activity_list_news">ListNewsActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_list_news">Popular News</string>
+    <string name="title_top_news">Top News</string>
+    <string name="title_most_shared">Most Shared</string>
+    <string name="title_most_emailed">Most Emailed</string>
+    <string name="title_most_viewed">Most Viewed</string>
 </resources>

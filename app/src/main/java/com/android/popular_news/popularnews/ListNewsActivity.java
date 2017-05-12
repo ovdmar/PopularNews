@@ -17,14 +17,18 @@ public class ListNewsActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
+                case R.id.navigation_top_news:
+                    mTextMessage.setText(R.string.title_top_news);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
+                case R.id.navigation_most_emailed:
+                    mTextMessage.setText(R.string.title_most_emailed);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                case R.id.navigation_most_shared:
+                    mTextMessage.setText(R.string.title_most_shared);
+                    return true;
+
+                case R.id.navigation_most_viewed:
+                    mTextMessage.setText(R.string.title_most_viewed);
                     return true;
             }
             return false;
