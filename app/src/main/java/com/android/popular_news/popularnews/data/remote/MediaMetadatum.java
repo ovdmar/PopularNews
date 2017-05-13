@@ -1,0 +1,61 @@
+package com.android.popular_news.popularnews.data.remote;
+
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
+import java.io.Serializable;
+
+/**
+ * Created by ovidiu on 12.05.2017.
+ */
+
+public class MediaMetadatum implements Serializable
+{
+
+    @SerializedName("url")
+    @Expose
+    private String url;
+    @SerializedName("format")
+    @Expose
+    private String format;
+    @SerializedName("height")
+    @Expose
+    private Integer height;
+    @SerializedName("width")
+    @Expose
+    private Integer width;
+    private final static long serialVersionUID = 3898306430119479230L;
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getFormat() {
+        return format;
+    }
+
+    public void setFormat(String format) {
+        this.format = format;
+    }
+
+    public Integer getHeight() {
+        return height;
+    }
+
+    public void setHeight(Integer height) {
+        this.height = height;
+    }
+
+    public Integer getWidth() {
+        return width;
+    }
+
+    public void setWidth(Integer width) {
+        this.width = width;
+    }
+
+}
