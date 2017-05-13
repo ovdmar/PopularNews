@@ -7,4 +7,8 @@
     <string name="title_most_viewed">Most Viewed</string>
     <string name="news_abstract">Abstract</string>
     <string name="news_title">Title</string>
+    <string name="date_published">Date published</string>
+    <string name="author">Author</string>
+    <string name="loader_profile">Profile loader</string>
+
 </resources>
