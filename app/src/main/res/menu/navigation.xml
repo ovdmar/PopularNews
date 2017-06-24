@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_most_viewed"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_most_viewed"/>
+
+    <item
+        android:id="@+id/navigation_most_shared"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_most_shared"/>
+
+    <item
+        android:id="@+id/navigation_most_emailed"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_most_emailed"/>
+
+</menu>
